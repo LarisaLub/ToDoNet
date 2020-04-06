@@ -20,12 +20,19 @@ a.navbar-brand {
   border-color: #1861ac;
 }
 
+
+
 body {
-  padding: 0;
-  margin: 0;
   height: 100%;
   font-family: Calibri;
-  color: white;
+  color: rgb(59, 123, 160);
+
+}
+
+.container {
+  width: 100%;
+  overflow-x: auto;
+
 }
 
 .todo {
@@ -62,7 +69,6 @@ body {
   height: 50px;
   font-size: 2rem;
   border-radius: 50%;
-  border: 0;
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
@@ -75,12 +81,12 @@ body {
 }
 
 .todo .todo-button.todo-button-add {
-  background: blue;
+  background: rgb(49, 49, 240);
 
 }
 
 .todo .todo-button.todo-button-add:hover {
-  background: mediumblue;
+  background: rgba(29, 29, 243, 0.877);
 }
 
 .todo .todo-button.todo-button-delete {
@@ -163,7 +169,6 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
