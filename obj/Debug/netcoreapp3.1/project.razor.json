@@ -20536,11 +20536,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/larisa/MvcMovie/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/larisa/MvcMovie/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
